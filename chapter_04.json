@@ -1,0 +1,167 @@
+{
+  "schema_version": 3,
+  "track": "جافاسكريبت",
+  "track_id": "javascript",
+  "chapter_number": 4,
+  "source_file": "الفصل 4.json",
+  "source_sha256": "9923bde46977126f19ca0624118a870333e7f3f56bcedf47809f71cf0810690b",
+  "question_count": 11,
+  "questions": [
+    {
+      "source_id": "javascript-ch4-q1",
+      "ordinal": 1,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي.\n1 اكتب الجملة Write the program on the line below. كتعليق\n2 اطبع \"Good evening\" في الـ console",
+      "answer": {
+        "mode": "code_replace",
+        "code": "//Write the program on the line below.\nconsole.log(\"Good evening\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q2",
+      "ordinal": 2,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أنشئ برنامجك كما يلي.\n1 اطبع \"Bread and coffee for 350 codycoins\" في الـ console.\n(لاحظ أن الرقم 350 يجب أن يُحسب بواسطة الكمبيوتر كـ 200+150 (سعر الخبز والقهوة).)",
+      "answer": {
+        "mode": "code_fill",
+        "code": "console.log(\"Bread and coffee for \" + (200 + 150) + \" codycoins\");",
+        "fragments": [
+          "+ (200 + 150) +"
+        ],
+        "where": "الاجابه نكتب قي النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q3",
+      "ordinal": 3,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي.\n1 أعلن المتغيّر num\n2 أسند القيمة 2 إلى num\n3 أسند قيمة num مضافًا إليها 8\n4 اطبع قيمة num في الـ console.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num;\nnum = 2;\nnum = num + 8;\nconsole.log(num);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q4",
+      "ordinal": 4,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "اختر البرنامج الصحيح لإخراج \"Hello\" على الـ console.",
+      "answer": {
+        "mode": "choice",
+        "code": "console.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q5",
+      "ordinal": 5,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "لإخراج \"Hello\" على الـ console.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q6",
+      "ordinal": 6,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي\nغيّر \"Leave this text.\" إلى تعليق.\n*عند تنفيذ البرنامج سيُخرج \"Make the first line a comment.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "//Leave this text.\nconsole.log(\"Make the first line a comment.\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q7",
+      "ordinal": 7,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "اختر البرنامج الصحيح الذي يجعل الحاسوب يحسب \"5+7\" ويُخرج نتيجة العملية الحسابية على الـ console.",
+      "answer": {
+        "mode": "choice",
+        "code": "console.log(5 + 7);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q8",
+      "ordinal": 8,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "اختر الرمز الصحيح للضرب المستخدم في البرنامج.",
+      "answer": {
+        "mode": "choice",
+        "code": "*",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q9",
+      "ordinal": 9,
+      "source_question_heading": "السؤال السادس",
+      "prompt": "دع الحاسوب يحسب \"3*5\" ويُخرج \"The answer is 15.\" على الـ console.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"The answer is \" + ( 3 * 5) + \".\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q10",
+      "ordinal": 10,
+      "source_question_heading": "السؤال السابع",
+      "prompt": "اختر التصريح الصحيح (declaration) للمتغير number.",
+      "answer": {
+        "mode": "choice",
+        "code": "let number;",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch4-q11",
+      "ordinal": 11,
+      "source_question_heading": "السؤال الثامن",
+      "prompt": "\"أنشئ برنامجك كما يلي\n1 صرّح عن المتغيّر num.\n2 أسند القيمة 5 إلى num\n3 أخرج قيمة num على الـ console\"",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num\nnum = 5\nconsole.log(num)",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    }
+  ]
+}

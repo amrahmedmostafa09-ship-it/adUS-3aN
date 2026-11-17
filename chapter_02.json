@@ -1,0 +1,344 @@
+{
+  "schema_version": 3,
+  "track": "جافاسكريبت",
+  "track_id": "javascript",
+  "chapter_number": 2,
+  "source_file": "الفصل 2.json",
+  "source_sha256": "866600cd6dec0c4b2a3667afc1c37f17bd38477807b9bcccb1c4edb58d72bc1d",
+  "question_count": 23,
+  "questions": [
+    {
+      "source_id": "javascript-ch2-q1",
+      "ordinal": 1,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Let's  calculate.\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Let's calculate.\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q2",
+      "ordinal": 2,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل:\nconsole.log(\"1+1\");",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"1+1\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q3",
+      "ordinal": 3,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "لنعدّل البرنامج ليصبح نفس ما يلي:\nconsole.log(1+1);",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(1+1);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q4",
+      "ordinal": 4,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 1400+3600 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(1400+3600);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q5",
+      "ordinal": 5,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 432+345 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(432+345);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q6",
+      "ordinal": 6,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 100-50 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(100-50);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q7",
+      "ordinal": 7,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 5×6 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(5*6);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q8",
+      "ordinal": 8,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 10÷5 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(10/5);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q9",
+      "ordinal": 9,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اجعل الكمبيوتر يحسب 10000000000 × 10000000000 ويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(10000000000*10000000000);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q10",
+      "ordinal": 10,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nوحدة النقود المستخدمة في الدرس هي \"codycoins\".",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q11",
+      "ordinal": 11,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل.\nوحدة النقود المستخدمة في الدرس هي \"codycoins\"",
+      "answer": {
+        "mode": "code_fill",
+        "code": "console.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");",
+        "fragments": [
+          "+",
+          "+"
+        ],
+        "where": "المطلوب هنا نكتب في النواقص علامتي"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q12",
+      "ordinal": 12,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل.\nوحدة النقود المستخدمة في الدرس هي \"codycoins\".\nconsole.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "(250 * 2)"
+        ],
+        "where": "المطلوب في النواقص كتابه"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q13",
+      "ordinal": 13,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q14",
+      "ordinal": 14,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أكمل السطر الثاني من البرنامج كما في الأسفل:\nconsole.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");\nconsole.log(\"Set of 3 coffees \" + (250 * 3) + \" codycoins\");",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "+ (250 * 3) +"
+        ],
+        "where": "الاجابة في النواقص كتابه"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q15",
+      "ordinal": 15,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أكمل البرنامج كما في الأسفل:\nconsole.log(\"One muffin \" + (320 * 1) + \" codycoins\");",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "+ (320 * 1) +"
+        ],
+        "where": "الاجابه كتابة النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q16",
+      "ordinal": 16,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Two muffins 640 codycoins\" في وحدة التحكم.\n(ولكن اجعل الكمبيوتر يحسب 320 × 2 (صيغة حساب سعر المافن × عدد المافن) ليظهر 640).",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "\" + (320 * 2) + \""
+        ],
+        "where": "الاجابه في النواقص كتابه"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q17",
+      "ordinal": 17,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "اختر البرنامج الصحيح لعرض نتيجة حساب 50+100 في وحدة التحكم.",
+      "answer": {
+        "mode": "choice",
+        "code": "console.log(50 + 100);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q18",
+      "ordinal": 18,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "اختر الرمز الصحيح للقسمة المستخدم في البرنامج.",
+      "answer": {
+        "mode": "choice",
+        "code": "/",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q19",
+      "ordinal": 19,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "اجعل الكمبيوتر يحسب\n19+40\nويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(19+40);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q20",
+      "ordinal": 20,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "اجعل الكمبيوتر يحسب\n7-2\nويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(7-2);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q21",
+      "ordinal": 21,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "اجعل الكمبيوتر يحسب\n15 ÷ 5\nويعرض نتيجة الحساب في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(15/5);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q22",
+      "ordinal": 22,
+      "source_question_heading": "السؤال السادس",
+      "prompt": "اختر البرنامج الصحيح لعرض \"Today is the 17th. 7 days ago was the 10th.\" في وحدة التحكم.",
+      "answer": {
+        "mode": "choice",
+        "code": "console.log(\"Today is the 17th.7 days ago was the \" + (17 - 7) + \"th.\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch2-q23",
+      "ordinal": 23,
+      "source_question_heading": "السؤال السابع",
+      "prompt": "اجعل الكمبيوتر يحسب\n2*5\nويعرض\n\"The answer is 10.\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"The answer is \" + (2*5) + \".\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": 3,
+  "track": "جافاسكريبت",
+  "track_id": "javascript",
+  "chapter_number": 6,
+  "source_file": "الفصل 6.json",
+  "source_sha256": "f82d0cc21c11617fa47bdfcd5024a6ff400d6b2f7325d8f61528332b85966df2",
+  "question_count": 17,
+  "questions": [
+    {
+      "source_id": "javascript-ch6-q1",
+      "ordinal": 1,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير  science وأسند له القيمة 100.\n(2) إذا كان المتغير science يساوي 100، أخرج \"Increased allowance!\"",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q2",
+      "ordinal": 2,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أسند 80 إلى المتغير science وأخرج \"Increased allowance!\" إذا كان المتغير science يساوي 100.\nإذا لم يكن science يساوي 100، يخرج البرنامج \"Weeding the garden\".\nأدخل نفس البرنامج كما في الأسفل.\nelse {console.log(\"Weeding the garden\");}",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}\nelse {console.log(\"Weeding the garden\");}",
+        "fragments": [
+          "else {console.log(\"Weeding the garden\");}"
+        ],
+        "where": "الاجابه نضيف هذا السطر في المكان المخصص له"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q3",
+      "ordinal": 3,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) إذا لم تكن قيمة المتغير  math تساوي 100، أخرج \"No reward\".",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let math = 80;\nif (math == 100){console.log(\"Get reward\");}\nelse {console.log(\"No reward\");}",
+        "fragments": [
+          "else {console.log(\"No reward\");}"
+        ],
+        "where": "الاجابه نضيف هذا السطر في المكان المخصص له"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q4",
+      "ordinal": 4,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجًا يخرج \"Let's go buy some.\" إذا كان المتغير egg يساوي 0، وإلا يخرج \"I still have some.\"\nأدخل نفس البرنامج كما في الأسفل.\nlet egg = 10;\nif (egg == 0){console.log(\"Let’s go buy some.\");}\nelse {console.log(\"I still have some.\");}",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let egg = 10;\nif (egg == 0){console.log(\"Let's go buy some.\");}\nelse {console.log(\"I still have some.\");}",
+        "fragments": [
+          "if (egg == 0)",
+          "else"
+        ],
+        "where": "الاجابه نكتب النواقص في المكان المخصص لها"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q5",
+      "ordinal": 5,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير num وأسند له القيمة 777.\n(2) إذا كان المتغير num يساوي 777، أخرج \"lucky\".\n(3) إذا لم يكن كذلك، أخرج \"better luck next time\".",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num = 777;\nif (num == 777){console.log(\"lucky\");}\nelse {console.log(\"better luck next time\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q6",
+      "ordinal": 6,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nنضفط تشغيل بدون اي تعديل",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q7",
+      "ordinal": 7,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أنشئ برنامجًا يخرج \"Add homework\" إذا كانت قيمة المتغير math أقل من أو تساوي 50، وإلا \"No homework!\".\nلنعدّل البرنامج ليكون كما في الأسفل.\nif (math <= 50){console.log(\"Add homework\");}",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let math = 30;\nif (math <= 50){console.log(\"Add homework\");}\nelse {console.log(\"No homework!\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q8",
+      "ordinal": 8,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير word أكبر من أو تساوي 70، أخرج \"pass\"، وإلا \"fail\".",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let word = 60;\nif (word >= 70){console.log(\"pass\");}\nelse {console.log(\"fail\");}",
+        "fragments": [
+          "word >= 70"
+        ],
+        "where": "الاجابه نكتب في النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q9",
+      "ordinal": 9,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أكبر من 130، أخرج \"Can ride\"، وإلا \"Cannot ride\".",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}",
+        "fragments": [
+          "height > 130"
+        ],
+        "where": "الاجابه نكتب في النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q10",
+      "ordinal": 10,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أقل من 80، يخرج البرنامج \"Cannot ride\"، وإلا \"Can ride\".\nالإخراج",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}",
+        "fragments": [
+          "height < 80"
+        ],
+        "where": "الاجابه نكتب في النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q11",
+      "ordinal": 11,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجًا يخرج \"No entry\" إذا كان المتغير age أقل من أو يساوي 16، وإلا \"Entry allowed\".\nأدخل نفس البرنامج كما في الأسفل.\nlet age = 15;\nif (age <= 16){console.log(\"No entry\");}\nelse {console.log(\"Entry allowed\");}",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let age = 15;\nif (age <= 16){console.log(\"No entry\");}\nelse {console.log(\"Entry allowed\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q12",
+      "ordinal": 12,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير age وأسند له 15.\n(2) إذا كان المتغير age أكبر من أو يساوي 60، أخرج \"Cannot jump\".\n(3) إذا لم يكن كذلك، أخرج \"Can jump\".",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let age = 15;\nif (age >= 60){console.log(\"Cannot jump\");}\nelse {console.log(\"Can jump\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q13",
+      "ordinal": 13,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "اختر برنامجًا يقول إذا كان الشرط ~ فافعل A، وإلا فافعل B.",
+      "answer": {
+        "mode": "choice",
+        "code": "if (conditional){A}\nelse{B}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q14",
+      "ordinal": 14,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أنشئ برنامجك كما يلي.\n١) صرّح عن المتغيّر num وأسنِد له القيمة 5.\n٢) إذا كان المتغيّر num يساوي 10، أخرج \"Win\".\n٣) وإلا، أخرج \"Lose\".",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num = 5\nif(num == 10){console.log(\"Win\")}\nelse {console.log(\"Lose\")}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q15",
+      "ordinal": 15,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "اختر برنامجًا يحتوي على التعبير الشرطي \"قيمة المتغيّر num أصغر من أو تساوي 80\".",
+      "answer": {
+        "mode": "choice",
+        "code": "num <= 80",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q16",
+      "ordinal": 16,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "اختر برنامجًا يحتوي على الشرط \"قيمة المتغيّر num أكبر من 30\".",
+      "answer": {
+        "mode": "choice",
+        "code": "num > 30",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch6-q17",
+      "ordinal": 17,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "أنشئ برنامجك كما يلي.\n١) إذا كانت قيمة المتغيّر score أكبر من أو تساوي 60، أخرج \"Pass\"؛ وإلا أخرج \"Fail\".\nرجاءً لا تحذف البرنامج المكتوب مسبقًا، وأدخل فقط جزء التعبير الشرطي.",
+      "answer": {
+        "mode": "code_fill",
+        "code": "let score = 80;\nif (score >= 60){console.log(\"Pass\");}\nelse {console.log(\"Fail\");}",
+        "fragments": [
+          "score >= 60"
+        ],
+        "where": "الاجابه نكتب في النواقص"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    }
+  ]
+}

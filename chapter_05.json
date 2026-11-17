@@ -1,0 +1,267 @@
+{
+  "schema_version": 3,
+  "track": "جافاسكريبت",
+  "track_id": "javascript",
+  "chapter_number": 5,
+  "source_file": "الفصل 5.json",
+  "source_sha256": "bd04e1674c2fbd0c4c92a0f10c51f0d4450c803423e4114d570ce8d43c0274b4",
+  "question_count": 18,
+  "questions": [
+    {
+      "source_id": "javascript-ch5-q1",
+      "ordinal": 1,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي\n1. صرّح عن المتغيّر fish\n2. أسند 0 إلى المتغيّر fish\n3. اطبع قيمة المتغيّر fish في وحدة التحكم",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let fish;\nfish = 0;\nconsole.log(fish);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q2",
+      "ordinal": 2,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أدخل برنامجك كما يلي\nlet fish = 0;\nconsole.log(fish);",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let fish = 0;\nconsole.log(fish);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q3",
+      "ordinal": 3,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي\n1 صرّح عن المتغيّر apple وأسنِد له القيمة 0.\n2 أسنِد القيمة 10 مضافة إلى المتغيّر apple.\n3 اطبع قيمة المتغيّر apple في وحدة التحكم.\nمع ذلك، يجب أن يُكتب البرنامج كاملًا في ثلاث أسطر.\n(يجب كتابة التصريح والإسناد الأولي في سطر واحد).",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let apple = 0;\napple = apple + 10;\nconsole.log(apple);",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q4",
+      "ordinal": 4,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q5",
+      "ordinal": 5,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "اسند 80 للمتغيّر  science، وإذا كان المتغيّر science يساوي 100، أنشئ برنامجًا يخرج \"Increased allowance!\" على وحدة التحكم.\nأدخل البرنامج كما يلي.\n1 اسند 80 للمتغيّر science",
+      "answer": {
+        "mode": "text",
+        "code": "الاجابه نكتب رقم 80 في المكان الفارغ",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q6",
+      "ordinal": 6,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "\"أنشئ برنامجًا يخرج على وحدة التحكم \"Increased allowance!\" إذا كان المتغيّر science يساوي 100.\nأدخل نفس البرنامج كما يلي.\nif (science == 100){console.log(\"Increased allowance!\");}",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "if (science == 100)"
+        ],
+        "where": "الاجابه نكتب في المكان الفارغ"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q7",
+      "ordinal": 7,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "أنشئ برنامجًا يخرج على وحدة التحكم \"Increased allowance!\" إذا كان المتغيّر science يساوي 100.\nأدخل البرنامج كما يلي.\nif (science == 100){console.log(\"Increased allowance!\");}",
+      "answer": {
+        "mode": "code_fill",
+        "code": "",
+        "fragments": [
+          "{console.log(\"Increased allowance!\");}"
+        ],
+        "where": "الاجابه نكتب في المكان الفارغ"
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q8",
+      "ordinal": 8,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجًا يخرج على وحدة التحكم \"Increased allowance!\" إذا كان المتغيّر science يساوي 100.\nأدخل البرنامج كما يلي.\nlet science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q9",
+      "ordinal": 9,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي.\n1 صرّح بالمتغيّر science وأسند له 100\n2 إذا كان المتغيّر science يساوي 100، أخرج \"Increased allowance!\"",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q10",
+      "ordinal": 10,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "أنشئ برنامجك كما يلي.\n1 صرّح بالمتغيّر  math وأسند له 100\n2 إذا كان المتغيّر math يساوي 100، أخرج \"Get a reward\"",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let math = 100;\nif (math == 100){console.log(\"Get a reward\");}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q11",
+      "ordinal": 11,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.\nالحل نضغط تشغيل الكود بدون اي تعديل",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q12",
+      "ordinal": 12,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.\nالحل نضغط تشغيل الكود بدون اي تعديل",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q13",
+      "ordinal": 13,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "هل سيُخرج البرنامج التالي “true\" أم “false\"؟\nlet math = 80;\nconsole.log(math == 80);",
+      "answer": {
+        "mode": "choice",
+        "code": "true",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q14",
+      "ordinal": 14,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "\"أنشئ برنامجك كما يلي.\n1 أعلن المتغيّر num وأسند له القيمة 5.\n2 اطبع قيمة المتغيّر num في وحدة التحكم.\nمع ذلك، يجب أن يُكتب البرنامج كاملًا في سطرين (يُكتب التصريح وإسناد القيمة الأولية في سطر واحد).\n(يجب أن يُكتب التصريح وإسناد القيمة الأولية في سطر واحد).",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num = 5\nconsole.log(num)",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q15",
+      "ordinal": 15,
+      "source_question_heading": "السؤال الثاني",
+      "prompt": "اختر برنامجًا يقول: \"إذا ~، إذن ________.\"",
+      "answer": {
+        "mode": "choice",
+        "code": "if (conditional){processing}",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q16",
+      "ordinal": 16,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "اختر عبارة الشرط \"قيمة المتغيّر num تساوي 50\".",
+      "answer": {
+        "mode": "choice",
+        "code": "num == 50",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q17",
+      "ordinal": 17,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي\n1 أعلن المتغيّر num وأسند له 100.\n2 إذا كان المتغيّر num يساوي 100، اطبع \"Correct\".",
+      "answer": {
+        "mode": "code_replace",
+        "code": "let num = 100\nif (num == 100){console.log(\"Correct\")};",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch5-q18",
+      "ordinal": 18,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "يرجى اختيار نتيجة إخراج البرنامج التالي.\nlet num = 200;\nconsole.log(num == 100)",
+      "answer": {
+        "mode": "choice",
+        "code": "false",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    }
+  ]
+}

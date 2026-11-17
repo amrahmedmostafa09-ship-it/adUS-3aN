@@ -1,0 +1,2 @@
+# مسار الثقافة المالية الافتراضي يستخدم requests فقط (موجودة في requirements.txt).
+# Playwright اختياري فقط لتشغيل financial_literacy_.py اليدوي القديم.

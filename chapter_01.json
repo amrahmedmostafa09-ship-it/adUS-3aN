@@ -1,0 +1,291 @@
+{
+  "schema_version": 3,
+  "track": "جافاسكريبت",
+  "track_id": "javascript",
+  "chapter_number": 1,
+  "source_file": "الفصل 1.json",
+  "source_sha256": "55d57b3892262387a7c921bffc31ea4617260890056b8e4d9847794418060b1e",
+  "question_count": 20,
+  "questions": [
+    {
+      "source_id": "javascript-ch1-q1",
+      "ordinal": 1,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "(انضم إلى ريكي في محادثة! أجب عن أسئلة ريكي.)\nلنلعب على الكمبيوتر لاحقًا!\nأريد أن ألعب به!\nالبرمجة تتيح لك إنشاء الألعاب والمواقع والتطبيقات وغيرها. نعلم عليها صح",
+      "answer": {
+        "mode": "free",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q2",
+      "ordinal": 2,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "كم عدد لغات البرمجة الموجودة في العالم؟",
+      "answer": {
+        "mode": "text",
+        "code": "أكثر من 100 نوع\nتحقّق مما تعلمته في هذا الدرس. تحقق من البنود أدناه واضغط على زر \"فهمت\"\nنعلم صح علي الثلاث نقاط",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q3",
+      "ordinal": 3,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل.\nconsole.log(\"Hello\");",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q4",
+      "ordinal": 4,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل.\nconsole.log(\"Good morning\");",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Good morning\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q5",
+      "ordinal": 5,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أدخل نفس البرنامج كما في الأسفل.\nconsole.log(\"Good evening\");",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Good evening\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q6",
+      "ordinal": 6,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good night\" في وحدة التحكم",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Good night\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q7",
+      "ordinal": 7,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "ابحث عن الأخطاء في برنامجك.\nبمجرد أن تجد الخطأ، اضغط على \"تشغيل الكود\".\nنضغط تشغيل الكود",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q8",
+      "ordinal": 8,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good luck\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Good luck\")",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q9",
+      "ordinal": 9,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nتشغيل الكود",
+      "answer": {
+        "mode": "none",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q10",
+      "ordinal": 10,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "لنعدّل السطر الأول ليصبح نفس البرنامج كما في الأسفل:\n//When executed, the text is output to the console.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "//When executed, the text is output to the console.\nconsole.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q11",
+      "ordinal": 11,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. ضع تعليقًا بالجملة \"Greetings for the day\".",
+      "answer": {
+        "mode": "code_replace",
+        "code": "//Greetings for the day.\nconsole.log(\"Good morning\");\nconsole.log(\"Hello\");\nconsole.log(\"Good evening\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q12",
+      "ordinal": 12,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "لنعدّل السطر الثاني ليصبح نفس البرنامج كما في الأسفل:\n//console.log(\"Apple\");",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Eggs\");\n//console.log(\"Apple\");\nconsole.log(\"Milk\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q13",
+      "ordinal": 13,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "عدّل برنامجك كما يلي:\n1. علّق البرنامج الذي يعرض \"Fish\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Lion\");\n//console.log(\"Fish\");\nconsole.log(\"Elephant\");\nconsole.log(\"Giraffe\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q14",
+      "ordinal": 14,
+      "source_question_heading": "سؤال",
+      "prompt": "هل يبدو كل شي جيدا حتي الان\nنعم ممتاز",
+      "answer": {
+        "mode": "free",
+        "code": "",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q15",
+      "ordinal": 15,
+      "source_question_heading": "السؤال الاول",
+      "prompt": "اختر البرنامج الصحيح لعرض \"Hello\" في وحدة التحكم.",
+      "answer": {
+        "mode": "choice",
+        "code": "console.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q16",
+      "ordinal": 16,
+      "source_question_heading": "السؤال الثانى",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good morning\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Good morning\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q17",
+      "ordinal": 17,
+      "source_question_heading": "السؤال الثالث",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \" Programming\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Programming\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q18",
+      "ordinal": 18,
+      "source_question_heading": "السؤال الرابع",
+      "prompt": "أنشئ برنامجك كما يلي:\n1. اعرض \"Hello\" في وحدة التحكم.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Hello\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q19",
+      "ordinal": 19,
+      "source_question_heading": "السؤال الخامس",
+      "prompt": "يرجى اختيار الطريقة الصحيحة لكتابة التعليق.",
+      "answer": {
+        "mode": "choice",
+        "code": "//Write your comments here.",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    },
+    {
+      "source_id": "javascript-ch1-q20",
+      "ordinal": 20,
+      "source_question_heading": "السؤال السادس",
+      "prompt": "علّق البرنامج بحيث تكون المخرجات كما يلي:\nHello.\nMy name is\nCody.",
+      "answer": {
+        "mode": "code_replace",
+        "code": "console.log(\"Hello.\");\nconsole.log(\"My name is\");\n//console.log(\"Rick.\");\nconsole.log(\"Cody.\");",
+        "fragments": [],
+        "where": ""
+      },
+      "needs_review_in_source": false,
+      "source_review_reason": ""
+    }
+  ]
+}
